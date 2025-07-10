@@ -76,3 +76,29 @@
     border-radius: 48px;
 }
 
+/* productive-user styles */
+.productive-user{
+    height: 306px;
+    margin: 0 160px 80px 140px;
+    background-color: #c9e4e8;
+    padding: 50px 80px;
+    border-radius: 40px;
+}
+.productive-user .main-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+.productive-user-container{
+    display: flex;
+    justify-content: space-around;
+}
+.productive-user-container .content .title{
+    font-size: 80px;
+    font-weight: 700;
+}
+.productive-user-container .content .subtitle{
+    font-size: 20px;
+    margin-top: -50px;
+    text-align: center;
+}
