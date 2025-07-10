@@ -11,7 +11,7 @@
   font-style: normal;
 }
 
-/* Predefined Style */
+/* Predefined class */
 
 .primary-color{
     color: #4E47FF;
@@ -24,7 +24,7 @@
 .dark-2{
     color: #8987A1;
 }
-/* header styles */
+/* header section styles */
 .header{
     background-image: url('../Assets/Hero-bg.png');
     width: 100%;
@@ -58,7 +58,7 @@
     font-size: 65px;
     font-weight: 700;
 }
-/* action styles */
+/* action section styles */
 .action{
     margin: 80px 150px;
     display: flex;
@@ -122,4 +122,31 @@
 .focus .focus-image img{
     border-radius: 40px;
     margin-top: 20px;
+}
+/* newsletter section styles */
+.newsletter{
+    display: flex;
+    margin: 80px 150px;
+    gap: 80px;
+    align-items: center;
+    padding: 70px 0;
+}
+.newsletter .newsletter-left{
+    width: 528px;
+}
+.newsletter .newsletter-left .newsletter-title{
+    font-size: 97px;
+    font-weight: 700;
+}
+
+.newsletter .newsletter-right label{
+    font-size: 18px;
+    font-weight: 500;
+}
+.newsletter .newsletter-right input[type="text"],input[type="email"],textarea{
+    width: 528px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border:none; 
+    margin: 10px 0;
 }
