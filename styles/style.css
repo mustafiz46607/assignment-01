@@ -13,8 +13,6 @@
     color: #4E47FF;
 }
 
-
-
 .dark-1{
     color: #252432;
 }
@@ -22,3 +20,59 @@
 .dark-2{
     color: #8987A1;
 }
+/* header styles */
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    width: 100%;
+    height: 698px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: 700;
+}
+.btn{
+    padding: 10px 28px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.hero{
+    margin: 309px 267.5px 152px 267.5px;
+    text-align: center;
+}
+.hero h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+/* action styles */
+.action{
+    margin: 80px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 510px;
+}
+.left .title{
+    font-size: 42px;
+    font-weight: 700;
+}
+.left .description{
+    font-size: 24px;
+}
+.right img{
+    width: 403px;
+    border-radius: 48px;
+}
+
