@@ -11,6 +11,9 @@
   font-style: normal;
 }
 
+body{
+    background-color: #f1f1f3;
+}
 /* Predefined class */
 
 .primary-color{
@@ -34,6 +37,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 140px;
+    padding: 50px 0;
     align-items: center;
 }
 .logo a{
@@ -42,17 +46,19 @@
     font-weight: 800;
 }
 .btn{
-    padding: 10px 28px;
+    padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    font-family: "Raleway", sans-serif;
     background-color: #4E47FF;
     font-size: 16px;
     font-weight: 700;
     color: white;
 }
 .hero{
-    margin: 309px 267.5px 152px 267.5px;
+    margin: 152px 267.5px ;
     text-align: center;
+    align-items: center;
 }
 .hero h1{
     font-size: 65px;
@@ -82,9 +88,8 @@
 
 /* productive-user styles */
 .productive-user{
-    height: 306px;
     margin: 0 160px 80px 140px;
-    background-color: #c9e4e8;
+    background-color: #d7e0e1;
     padding: 50px 80px;
     border-radius: 40px;
 }
@@ -105,11 +110,55 @@
     font-size: 20px;
     margin-top: -50px;
     text-align: center;
+    font-weight: 400;
 }
+/* comment section styles */
+.comment-section{
+    margin: 80px 150px;
+}
+.comment-section-title{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+.comment-card-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    border-radius: 10px;
+}
+.comment-card-container .card{
+    border: none;
+    border-radius: 10px;
+    padding: 24px;
+    background-color: white;
+}
+.comment-card-container .card .comment-avater{
+    display: flex;
+    gap: 20px;
+}
+.comment-avater .avater img{
+    border-radius: 40px;
+}
+.comment-avater .avater-name {
+    margin-top: 0;
+    color: #2e2d39;
+}
+.comment-avater .date{
+    margin-top: -12px;
+    color: #8987A1;
+}
+
+
 /* focus section styles */
 .focus{
+    margin: 70px 150px;
     padding: 70px 150px;
     text-align: center;
+    border-radius: 15px;
+    background-color: white;
 }
 .focus .focus-title{
     font-size: 50px;
@@ -150,10 +199,15 @@
     border:none; 
     margin: 10px 0;
 }
+.newsletter .newsletter-right .btn{
+    width: 100%;
+    padding: 22px 101px;
+}
 /* footer styles */
 .footer{
-    margin: 104px 455px;
+    padding: 104px 455px;
     text-align: center;
+    background-color: white;
 }
 .footer .footer-logo a{
     text-decoration: none;
@@ -170,3 +224,4 @@
 .footer .quick-link a{
     text-decoration: none;
 }
+
