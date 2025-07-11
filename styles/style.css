@@ -55,6 +55,10 @@ body{
     font-weight: 700;
     color: white;
 }
+.btn:hover{
+    background-color: yellow;
+    color: black;
+}
 .hero{
     margin: 152px 267.5px ;
     text-align: center;
